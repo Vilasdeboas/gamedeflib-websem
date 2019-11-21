@@ -3,7 +3,7 @@ Título do Projeto: Game Definition Library
 
 Autor: Vinícius Vilas Boas
 
-Fonte de Dados: Chicken Coop API (Metacritic)
+Fonte de Dados: A API Chicken Coop que usa dados da Metacritic
 
 Erreideficação:
   O processo de erreideificação foi, na maior parte do tempo, um processo de leitura de documentação de padrões, sites com as informações necessário que, no caso, são o Metacritic e DBPedia, e aprendizado do uso da API em questão.
