@@ -1,0 +1,313 @@
+@prefix dc: 	<http://purl.org/dc/elements/1.1/> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbpedia: <http://dbpedia.org/page/> .
+@prefix dbp: <http://dbpedia.org/property/> .
+
+dbpedia:PlayStation_4
+	foaf:name "PlayStation 4";
+	dbo:type dbpedia:Home_video_game_console;
+	rdfs:label "PlayStation 4".
+
+dbpedia:PlayStation_3
+	dbo:type dbpedia:Home_video_game_console;
+	rdfs:label "PlayStation 3".
+
+dbpedia:PlayStation_2
+	dbo:type dbpedia:Home_video_game_console;
+	rdfs:label "PlayStation 2".
+
+dbpedia:PlayStation
+	dbp:type dbpedia:Video_game_console;
+	rdfs:label "PlayStation".
+
+dbpedia:XBox_One
+	foaf:name "XBox One";
+	dbo:type dbpedia:Home_video_game_console;
+	rdfs:label "XBox One" .
+
+dbpedia:XBox_360
+	dbo:type dbpedia:Home_video_game_console;
+	rdfs:label "XBox 360" .
+
+dbpedia:Nintendo_Switch
+	foaf:name "New Nintendank New Wii U 2.0+";
+	dbo:type dbpedia:Video_game_hardware;
+	rdfs:label "Nintendo Switch" .
+
+dbpedia:Computer
+	dbp:title "Computer";
+	rdf:type dbo:Device;
+	rdfs:label "Computer" .
+
+_:game1
+	rdfs:label "Dead Cells";
+	dbp:score 89;
+	dbo:genre "Action";
+	dbo:genre "Platformer";
+	dbo:genre "2D";
+	dbo:publisher "Motion Twin";
+	dbo:developer "Motion Twin";
+	dc:source <https://www.metacritic.com/game/pc/dead-cells>;
+	dbo:computingPlatform dbpedia:Computer.
+
+_:game2
+	rdfs:label "Cities: Skylines";
+	dc:description "Developed by Colossal Order, Cities: Skylines offers sprawling landscapes and maps with endless sandbox gameplay and new ways to expand your city. Key to progression is the ability to influence your city�s policy by incorporating taxation into districts. All this plus the ability to mod the Developed by Colossal Order, Cities: Skylines offers sprawling landscapes and maps with endless sandbox gameplay and new ways to expand your city. Key to progression is the ability to influence your city�s policy by incorporating taxation into districts. All this plus the ability to mod the game to suit your play style. &hellip;  Expand";
+	dbp:score 85;
+	dbo:genre "City Building";
+	dbo:genre "Modern";
+	dbo:genre "Strategy";
+	dbo:genre "Management";
+	dbo:genre "Government";
+	dbo:publisher "Paradox Interactive";
+	dbo:developer "Colossal Order";
+	dc:source <https://www.metacritic.com/game/pc/cities-skylines>;
+	dbo:computingPlatform dbpedia:Computer.
+
+_:game3
+	rdfs:label "The Witcher 3: Wild Hunt";
+	dbp:score 93;
+	dbo:genre "Action RPG";
+	dbo:genre "Role-Playing";
+	dbo:genre "Action RPG";
+	dbo:publisher "Warner Bros. Interactive Entertainment";
+	dbo:developer "CD Projekt Red Studio";
+	dc:source <https://www.metacritic.com/game/pc/the-witcher-3-wild-hunt>;
+	dbo:computingPlatform dbpedia:Computer.
+
+_:game4
+	rdfs:label "Super Mario Odyssey";
+	dbp:score 97;
+	dbo:genre "Action";
+	dbo:genre "Platformer";
+	dbo:genre "3D";
+	dbo:publisher "Nintendo";
+	dbo:developer "Nintendo";
+	dc:source <https://www.metacritic.com/game/switch/super-mario-odyssey>;
+	dbo:computingPlatform dbpedia:Nintendo_Switch.
+
+_:game5
+	rdfs:label "Fire Emblem: Three Houses";
+	dbp:score 89;
+	dbo:genre "Strategy";
+	dbo:genre "Turn-Based";
+	dbo:genre "Tactics";
+	dbo:publisher "Nintendo";
+	dbo:developer "Intelligent Systems, Koei Tecmo Games";
+	dc:source <https://www.metacritic.com/game/switch/fire-emblem-three-houses>;
+	dbo:computingPlatform dbpedia:Nintendo_Switch.
+
+_:game6
+	rdfs:label "Pokemon Sword";
+	dbp:score 82;
+	dbo:genre "Role-Playing";
+	dbo:genre "Trainer";
+	dbo:publisher "Nintendo";
+	dbo:developer "Game Freak";
+	dc:source <https://www.metacritic.com/game/switch/pokemon-sword>;
+	dbo:computingPlatform dbpedia:Nintendo_Switch.
+
+_:game7
+	rdfs:label "Horizon Zero Dawn";
+	dbp:score 89;
+	dbo:genre "Role-Playing";
+	dbo:genre "Action RPG";
+	dbo:publisher "SCEA";
+	dbo:publisher "Sony Interactive Entertainment";
+	dbo:developer "Guerrilla";
+	dc:source <https://www.metacritic.com/game/playstation-4/horizon-zero-dawn>;
+	dbo:computingPlatform dbpedia:PlayStation_4.
+
+_:game8
+	rdfs:label "Bloodborne";
+	dbo:genre "Fantasy";
+	dbo:genre "Role-Playing";
+	dbo:genre "Action Adventure";
+	dbo:genre "General";
+	dbo:genre "Action RPG";
+	dbo:publisher "SCEA";
+	dbo:developer "From Software";
+	dc:source <https://www.metacritic.com/game/playstation-4/bloodborne>;
+	dbo:computingPlatform dbpedia:PlayStation_4.
+
+_:game9
+	rdfs:label "Dark Souls III";
+	dbp:score 89;
+	dbo:genre "Role-Playing";
+	dbo:genre "Action RPG";
+	dbo:publisher "Bandai Namco Games";
+	dbo:developer "From Software";
+	dc:source <https://www.metacritic.com/game/playstation-4/dark-souls-iii>;
+	dbo:computingPlatform dbpedia:PlayStation_4.
+
+_:game10
+	rdfs:label "Dark Souls II";
+	dbp:score 91;
+	dbo:genre "Action RPG";
+	dbo:genre "Role-Playing";
+	dbo:genre "Action RPG";
+	dbo:publisher "Namco Bandai Games";
+	dbo:developer "From Software";
+	dc:source <https://www.metacritic.com/game/playstation-3/dark-souls-ii>;
+	dbo:computingPlatform dbpedia:PlayStation_3.
+
+_:game11
+	rdfs:label "Dark Souls";
+	dbp:score 89;
+	dbo:genre "Role-Playing";
+	dbo:genre "Action RPG";
+	dbo:genre "Action RPG";
+	dbo:publisher "Namco Bandai Games";
+	dbo:developer "From Software";
+	dc:source <https://www.metacritic.com/game/playstation-3/dark-souls>;
+	dbo:computingPlatform dbpedia:PlayStation_3.
+
+_:game12
+	rdfs:label "Demon's Souls";
+	dbp:score 89;
+	dbo:genre "Role-Playing";
+	dbo:genre "Action RPG";
+	dbo:genre "Action RPG";
+	dbo:publisher "Atlus";
+	dbo:developer "From Software";
+	dc:source <https://www.metacritic.com/game/playstation-3/demon's-souls>;
+	dbo:computingPlatform dbpedia:PlayStation_3.
+
+_:game13
+	rdfs:label "Dragon Ball Z: Budokai Tenkaichi 3";
+	dbp:score 73;
+	dbo:genre "Action";
+	dbo:genre "Fighting";
+	dbo:genre "3D";
+	dbo:publisher "Atari";
+	dbo:developer "Spike, Namco Bandai Games";
+	dc:source <https://www.metacritic.com/game/playstation-2/dragon-ball-z-budokai-tenkaichi-3>;
+	dbo:computingPlatform dbpedia:PlayStation_2.
+
+_:game14
+	rdfs:label "Need for Speed Most Wanted";
+	dbp:score 82;
+	dbo:genre "Driving";
+	dbo:genre "Racing";
+	dbo:genre "GT / Street";
+	dbo:publisher "Electronic Arts";
+	dbo:developer "EA Canada";
+	dc:source <https://www.metacritic.com/game/playstation-2/need-for-speed-most-wanted>;
+	dbo:computingPlatform dbpedia:PlayStation_2.
+
+_:game15
+	rdfs:label "Grand Theft Auto: San Andreas";
+	dbp:score 95;
+	dbo:genre "Action Adventure";
+	dbo:genre "Modern";
+	dbo:publisher "Rockstar Games";
+	dbo:developer "Rockstar North";
+	dc:source <https://www.metacritic.com/game/playstation-2/grand-theft-auto-san-andreas>;
+	dbo:computingPlatform dbpedia:PlayStation_2.
+
+_:game16
+	rdfs:label "Final Fantasy VII";
+	dbp:score 92;
+	dbo:genre "Role-Playing";
+	dbo:genre "Console-style RPG";
+	dbo:publisher "SCEA";
+	dbo:developer "SquareSoft";
+	dc:source <https://www.metacritic.com/game/playstation/final-fantasy-vii>;
+	dbo:computingPlatform dbpedia:PlayStation.
+
+_:game17
+	rdfs:label "Metal Gear Solid";
+	dbp:score 94;
+	dbo:genre "Action Adventure";
+	dbo:genre "Modern";
+	dbo:publisher "Konami";
+	dbo:developer "KCEJ";
+	dc:source <https://www.metacritic.com/game/playstation/metal-gear-solid>;
+	dbo:computingPlatform dbpedia:PlayStation.
+
+_:game18
+	rdfs:label "Resident Evil";
+	dbp:score 91;
+	dbo:genre "Action Adventure";
+	dbo:genre "Horror";
+	dbo:publisher "Capcom";
+	dbo:developer "Capcom";
+	dc:source <https://www.metacritic.com/game/playstation/resident-evil>;
+	dbo:computingPlatform dbpedia:PlayStation.
+
+_:game19
+	rdfs:label "Borderlands 3";
+	dbp:score 82;
+	dbo:genre "Action";
+	dbo:genre "Shooter";
+	dbo:genre "First-Person";
+	dbo:genre "Arcade";
+	dbo:publisher "2K Games";
+	dbo:developer "Gearbox Software";
+	dc:source <https://www.metacritic.com/game/xbox-one/borderlands-3>;
+	dbo:computingPlatform dbpedia:Xbox_One.
+
+_:game20
+	rdfs:label "Borderlands 2";
+	dbp:score 0;
+	dbo:genre "Action";
+	dbo:genre "Shooter";
+	dbo:genre "First-Person";
+	dbo:genre "Arcade";
+	dbo:publisher "2K Games";
+	dbo:developer "Gearbox Software";
+	dc:source <https://www.metacritic.com/game/xbox-one/borderlands-2>;
+	dbo:computingPlatform dbpedia:Xbox_One.
+
+_:game21
+	rdfs:label "Halo 5: Guardians";
+	dbp:score 84;
+	dbo:genre "Shooter";
+	dbo:genre "Sci-Fi";
+	dbo:genre "Sci-Fi";
+	dbo:genre "Action";
+	dbo:genre "Shooter";
+	dbo:genre "First-Person";
+	dbo:genre "Arcade";
+	dbo:publisher "Microsoft Game Studios";
+	dbo:developer "343 Industries";
+	dc:source <https://www.metacritic.com/game/xbox-one/halo-5-guardians>;
+	dbo:computingPlatform dbpedia:Xbox_One.
+
+_:game22
+	rdfs:label "The Elder Scrolls V: Skyrim";
+	dbp:score 96;
+	dbo:genre "Role-Playing";
+	dbo:genre "First-Person";
+	dbo:genre "First-Person";
+	dbo:genre "Western-Style";
+	dbo:publisher "Bethesda Softworks";
+	dbo:developer "Bethesda Game Studios";
+	dc:source <https://www.metacritic.com/game/xbox-360/the-elder-scrolls-v-skyrim>;
+	dbo:computingPlatform dbpedia:Xbox_360.
+
+_:game23
+	rdfs:label "The Elder Scrolls IV: Oblivion";
+	dbp:score 94;
+	dbo:genre "Role-Playing";
+	dbo:genre "First-Person";
+	dbo:genre "First-Person";
+	dbo:genre "Western-Style";
+	dbo:publisher "2K Games";
+	dbo:developer "Bethesda Softworks";
+	dc:source <https://www.metacritic.com/game/xbox-360/the-elder-scrolls-iv-oblivion>;
+	dbo:computingPlatform dbpedia:Xbox_360.
+
+_:game24
+	rdfs:label "The Elder Scrolls III: Morrowind";
+	dbp:score 0;
+	dbo:genre "Role-Playing";
+	dbo:genre "Western-Style";
+	dbo:publisher "Bethesda Softworks";
+	dbo:developer "Bethesda Game Studios";
+	dc:source <https://www.metacritic.com/game/xbox-360/the-elder-scrolls-iii-morrowind>;
+	dbo:computingPlatform dbpedia:Xbox_360.
+
