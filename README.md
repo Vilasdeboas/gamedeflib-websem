@@ -19,6 +19,7 @@ Erreideficação:
   - Built-out:
       - requests (função ".request(Protocolo PHP, url, headers, param)" e ".text" para transformar a informação em texto): possui diversas funções para puxar informações de URLs que o usuário passa, como o HTML do site ou algum arquivo em um link;
       - termcolor (função "cprint("texto", cor, marcador, parâmetros de texto)"): termcolor é uma biblioteca para colorir o texto dentro da função "print()". É possível mudar a cor da fonte, a cor do fundo da fonte e características da fonte (deixar em negrito, mudar a fonte, etc).
+      - rdflib (funções "Graph", "Literal" e "query"):
   Utilizando essas bibliotecas específicas e as funções built-in do tipo "file" foi possível salvar toda a informação em um arquivo de texto. Não foi necessário fazer um arquivo do tipo ".txt" e depois converter para o tipo ".ttl". A própria IDE pergunta se ela pode abrir a extensão ".ttl" como se fosse um ".txt", então não ocorreram problemas. O código, bascicamente, escreve um padrão onde, dentro dele, existem lacunas que são completas pelos resultados que podem ser obtidos com a API. Antes disso ele faz uma verificação checando se o arquivo existe e não está vazio. Se está, faz o cabeçalho com os prefixo e começa a salvar, caso contrário, só começa a salvar. Ele também verifica quantos jogos existem salvos para não errar no identificador numérico.
   No vocabulário usado, existem as seguintes coisas:
     - DBPedia:
