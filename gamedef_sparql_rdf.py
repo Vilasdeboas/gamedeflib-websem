@@ -2,7 +2,7 @@ from rdflib import Graph, Literal
 
 g = Graph()
 
-filename = 'websem.ttl'
+filename = 'gamedeflib_rdf.ttl'
 
 g.parse(filename, format='turtle')
 
@@ -83,7 +83,7 @@ if rsp == 4:
         ans = g.query(query)
 
         for stmt in ans:
-            print(f"Título: %s - Nota: %s" % stmt)
+            print(f"Gênero: %s - Título: %s" % stmt)
 
     except Exception as e:
         print('Algo deu errado.')
